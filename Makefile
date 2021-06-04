@@ -1,6 +1,5 @@
-
 GOPATH := $(shell pwd)
-.PHONY: clean test
+.PHONY: clean
 
 all:
 	@GOPATH=$(GOPATH) go install localstorage
